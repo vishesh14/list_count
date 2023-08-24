@@ -71,11 +71,3 @@ void _storeCount(int index, int count) {
 int _getStoredCount(int index) {
   return CountStorage.getCount(index);
 }
-
-// void main() {
-//   runApp(MaterialApp(
-//     home: Scaffold(
-//       body: ListWidget(),
-//     ),
-//   ));
-// }
